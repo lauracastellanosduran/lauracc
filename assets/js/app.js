@@ -4,6 +4,23 @@ const menuToggle = document.querySelector(".menu-toggle");
 const menuClose = document.querySelector(".menu-close");
 const menuLinks = Array.from(document.querySelectorAll(".menu-panel a[href^='#']"));
 const lazyBgs = Array.from(document.querySelectorAll("[data-lazy-bg]"));
+const lazyImages = Array.from(document.querySelectorAll("img[data-src]"));
+
+function loadManagedImage(img) {
+  if (!img || img.dataset.loaded === "true") return;
+  const source = img.getAttribute("data-src");
+  if (!source) return;
+  img.src = source;
+  img.dataset.loaded = "true";
+
+  const fallback = img.getAttribute("data-fallback");
+  if (fallback) {
+    img.onerror = () => {
+      img.onerror = null;
+      img.src = fallback;
+    };
+  }
+}
 
 function applyLazyBackgrounds(group) {
   lazyBgs.forEach((el) => {
@@ -12,6 +29,13 @@ function applyLazyBackgrounds(group) {
     if (!source || el.dataset.bgLoaded === "true") return;
     el.style.setProperty("--lazy-bg", `url("${source}")`);
     el.dataset.bgLoaded = "true";
+  });
+}
+
+function applyLazyImages(group) {
+  lazyImages.forEach((img) => {
+    if (group && img.getAttribute("data-lazy-group") !== group) return;
+    loadManagedImage(img);
   });
 }
 
@@ -25,6 +49,7 @@ function setPage(hash) {
 
   document.body.dataset.page = target;
   applyLazyBackgrounds(target);
+  applyLazyImages(target);
 }
 
 function openMenu() {
@@ -32,6 +57,7 @@ function openMenu() {
   menuPanel.setAttribute("aria-hidden", "false");
   menuToggle.setAttribute("aria-expanded", "true");
   applyLazyBackgrounds("menu");
+  applyLazyImages("menu");
 }
 
 function closeMenu() {
@@ -215,12 +241,17 @@ function imageSlots(project) {
 
 function createSlots(project, className) {
   return imageSlots(project)
-    .map(
-      (slot, index) =>
-        `<div class="${className}">
-          <img src="${assetPath(slot.path)}" alt="${escapeHtml(project.title)} ${index + 1}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" onerror="this.onerror=null;this.src='${remoteAssetPath(slot.path)}';" />
-        </div>`
-    )
+    .map((slot, index) => {
+      const source = assetPath(slot.path);
+      const sourceAttrs =
+        index === 0
+          ? `src="${source}" onerror="this.onerror=null;this.src='${remoteAssetPath(slot.path)}';"`
+          : `data-src="${source}" data-fallback="${remoteAssetPath(slot.path)}"`;
+
+      return `<div class="${className}">
+          <img ${sourceAttrs} alt="${escapeHtml(project.title)} ${index + 1}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" />
+        </div>`;
+    })
     .join("");
 }
 
@@ -235,13 +266,29 @@ if (projectFan && fanStage) {
   let moved = 0;
   const cardEls = [];
 
+  function syncProjectCoverLoading() {
+    cardEls.forEach((card, index) => {
+      const cover = card.querySelector(".fan-card__cover");
+      if (!cover) return;
+      if (Math.abs(wrappedOffset(index)) <= 2.25) {
+        loadManagedImage(cover);
+      }
+    });
+  }
+
   function renderProjects() {
     projectFan.innerHTML = PROJECTS.map((project, index) => {
+      const shouldLoadImmediately = index === 0 || index === 1 || index === PROJECTS.length - 1;
+      const coverSource = assetPath(project.cover);
+      const coverAttrs = shouldLoadImmediately
+        ? `src="${coverSource}" onerror="this.onerror=null;this.src='${remoteAssetPath(project.cover)}';"`
+        : `data-src="${coverSource}" data-fallback="${remoteAssetPath(project.cover)}"`;
+
       return `
-        <article class="fan-card" data-index="${index}" style="--slide: 0">
+        <article class="fan-card" data-index="${index}" data-slug="${escapeHtml(project.slug)}" style="--slide: 0">
           <div class="fan-card__inner">
             <div class="fan-card__media">
-              <img class="fan-card__cover" src="${assetPath(project.cover)}" alt="${escapeHtml(project.title)} cover" loading="${index < 3 ? "eager" : "lazy"}" decoding="async" onerror="this.onerror=null;this.src='${remoteAssetPath(project.cover)}';" />
+              <img class="fan-card__cover" ${coverAttrs} alt="${escapeHtml(project.title)} cover" loading="${shouldLoadImmediately ? "eager" : "lazy"}" decoding="async" />
             </div>
             <div class="fan-card__copy">
               <p class="fan-card__meta">${escapeHtml(project.category)}</p>
@@ -253,6 +300,7 @@ if (projectFan && fanStage) {
     }).join("");
 
     cardEls.splice(0, cardEls.length, ...Array.from(projectFan.querySelectorAll(".fan-card")));
+    syncProjectCoverLoading();
     cardEls.forEach((card, index) => {
       card.addEventListener("click", (event) => {
         if (moved > 8) return;
@@ -279,6 +327,7 @@ if (projectFan && fanStage) {
     if (nextActive !== activeProject) {
       activeProject = nextActive;
       currentProjectTitle.textContent = PROJECTS[activeProject].title;
+      syncProjectCoverLoading();
     }
 
     cardEls.forEach((card, index) => {
@@ -300,9 +349,18 @@ if (projectFan && fanStage) {
 
   function setModalSlide(index) {
     activeModalSlide = (index + 5) % 5;
+    const modalImages = Array.from(projectModalMedia.querySelectorAll("img[data-src]"));
+    const total = modalImages.length;
+    loadManagedImage(modalImages[activeModalSlide]);
+    loadManagedImage(modalImages[(activeModalSlide + 1) % total]);
+    loadManagedImage(modalImages[(activeModalSlide + total - 1) % total]);
     projectModalMedia.style.setProperty("--slide", activeModalSlide);
     Array.from(projectModalThumbs.children).forEach((thumb, i) => {
       thumb.classList.toggle("is-active", i === activeModalSlide);
+      const thumbImage = thumb.querySelector("img[data-src]");
+      if (i === activeModalSlide || i === (activeModalSlide + 1) % total || i === (activeModalSlide + total - 1) % total) {
+        loadManagedImage(thumbImage);
+      }
     });
   }
 
@@ -324,12 +382,15 @@ if (projectFan && fanStage) {
     projectModalThumbs.innerHTML = imageSlots(project)
       .map((slot, i) => `
         <button class="project-modal__thumb" type="button" data-thumb="${i}" aria-label="${escapeHtml(project.title)} image ${i + 1}">
-          <img src="${assetPath(slot.path)}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${remoteAssetPath(slot.path)}';" />
+          <img data-src="${assetPath(slot.path)}" data-fallback="${remoteAssetPath(slot.path)}" alt="" loading="lazy" decoding="async" />
         </button>
       `)
       .join("");
     projectModal.classList.add("is-open");
     projectModal.setAttribute("aria-hidden", "false");
+    projectModalThumbs.querySelectorAll("img[data-src]").forEach((img, i) => {
+      if (i < 3) loadManagedImage(img);
+    });
     setModalSlide(activeModalSlide);
     projectModalMedia.querySelectorAll("[data-modal-dir]").forEach((button) => {
       button.addEventListener("click", () => setModalSlide(activeModalSlide + Number(button.dataset.modalDir)));
