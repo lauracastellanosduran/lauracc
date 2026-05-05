@@ -414,17 +414,18 @@ main,
 
 .project-modal__nav {
   position: absolute;
-  inset: 14px 14px auto auto;
+  inset: auto auto 18px 50%;
+  transform: translateX(-50%);
   display: flex;
-  gap: 6px;
+  gap: 10px;
   z-index: 2;
 }
 
 .project-modal__nav button {
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   border: 1px solid rgba(244, 242, 239, 0.18);
   border-radius: 999px;
   background: rgba(16, 17, 17, 0.72);
@@ -853,6 +854,10 @@ main,
 
   .project-modal__media {
     min-height: 42dvh;
+  }
+
+  .project-modal__nav {
+    bottom: 12px;
   }
 
   .experience-row {

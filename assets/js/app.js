@@ -80,6 +80,10 @@ function assetPath(path) {
     .join("/");
 }
 
+function remoteAssetPath(path) {
+  return `https://raw.githubusercontent.com/lauracastellanosduran/lauracc/main/${assetPath(path).replace(/^\.\//, "")}`;
+}
+
 const PROJECTS = [
   {
     slug: "legasea",
@@ -214,7 +218,7 @@ function createSlots(project, className) {
     .map(
       (slot, index) =>
         `<div class="${className}">
-          <img src="${assetPath(slot.path)}" alt="${escapeHtml(project.title)} ${index + 1}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" />
+          <img src="${assetPath(slot.path)}" alt="${escapeHtml(project.title)} ${index + 1}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async" onerror="this.onerror=null;this.src='${remoteAssetPath(slot.path)}';" />
         </div>`
     )
     .join("");
@@ -237,7 +241,7 @@ if (projectFan && fanStage) {
         <article class="fan-card" data-index="${index}" style="--slide: 0">
           <div class="fan-card__inner">
             <div class="fan-card__media">
-              <img class="fan-card__cover" src="${assetPath(project.cover)}" alt="${escapeHtml(project.title)} cover" loading="${index < 3 ? "eager" : "lazy"}" decoding="async" />
+              <img class="fan-card__cover" src="${assetPath(project.cover)}" alt="${escapeHtml(project.title)} cover" loading="${index < 3 ? "eager" : "lazy"}" decoding="async" onerror="this.onerror=null;this.src='${remoteAssetPath(project.cover)}';" />
             </div>
             <div class="fan-card__copy">
               <p class="fan-card__meta">${escapeHtml(project.category)}</p>
@@ -320,7 +324,7 @@ if (projectFan && fanStage) {
     projectModalThumbs.innerHTML = imageSlots(project)
       .map((slot, i) => `
         <button class="project-modal__thumb" type="button" data-thumb="${i}" aria-label="${escapeHtml(project.title)} image ${i + 1}">
-          <img src="${assetPath(slot.path)}" alt="" loading="lazy" decoding="async" />
+          <img src="${assetPath(slot.path)}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${remoteAssetPath(slot.path)}';" />
         </button>
       `)
       .join("");
