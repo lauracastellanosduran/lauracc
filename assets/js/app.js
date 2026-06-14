@@ -138,7 +138,6 @@ const PROJECTS = [
     images: [
       "./assets/images/projects/gulftainer/01.jpg",
       "./assets/images/projects/gulftainer/02.jpg",
-      "./assets/images/projects/gulftainer/03.jpg",
       "./assets/images/projects/gulftainer/04.jpg",
       "./assets/images/projects/gulftainer/05.jpg",
     ],
@@ -348,9 +347,10 @@ if (projectFan && fanStage) {
   }
 
   function setModalSlide(index) {
-    activeModalSlide = (index + 5) % 5;
-    const modalImages = Array.from(projectModalMedia.querySelectorAll("img[data-src]"));
+    const modalImages = Array.from(projectModalMedia.querySelectorAll(".project-modal__slot img"));
     const total = modalImages.length;
+    if (!total) return;
+    activeModalSlide = ((index % total) + total) % total;
     loadManagedImage(modalImages[activeModalSlide]);
     loadManagedImage(modalImages[(activeModalSlide + 1) % total]);
     loadManagedImage(modalImages[(activeModalSlide + total - 1) % total]);
