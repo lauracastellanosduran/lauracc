@@ -1,0 +1,161 @@
+# Memories — Igor NZ marine design search
+
+## Run history
+
+- **2026-09-07** — First run. Artifacts: `candidate/`, `companies/`, `jobs/`, `applications/`, `runs/2026-09-07.md`.
+- **2026-09-08** — Second run. No new ≥7 live ID job. Map expanded. Dickey outreach drafted. Cookson closed.
+- **2026-09-09** — Third run. Voodoo still the only live design req. New speculative ≥7: DEMEY Yachts. Formula Cruisers closed 2013. Five drafts total, none sent.
+- **2026-09-10** — Fourth run. Voodoo still the only live design req. New speculative ≥7: Hall Marine Design / Purekraft (8), Admiral Boats NZ (7). Seven drafts total, none sent.
+- **2026-09-11** — Fifth run. Voodoo still the only live design req. New speculative ≥7: Sealegs (8), Teknicraft (7), Stryda Marine (7). Ten drafts total, none sent. Fyran dormant.
+- **2026-09-14** — Sixth run. Voodoo still the only live design req. New speculative ≥7: TysonD (8), Herley Boats (7). Twelve drafts total, none sent. Lees + Norsand out of target.
+- **2026-09-15** — Seventh run. Voodoo still the only live design req. New speculative ≥7: Radian Marine (8), Bluefix/NorthCape (8), Elliott Marine (7). Fifteen drafts total, none sent. Robertson, Barclay, Superthriller, Pilot Bay, Careys Bay out of ID target.
+- **2026-09-16** — Eighth run. Voodoo still the only live design req. No new ≥7 live ID posting. New speculative ≥7: StabiX (8), Built Boats (8), JP Crafts (7). Eighteen drafts total, none sent. Solur CAD Engineer, Weber joiner, PURE FEA, Johnson steel custom — out.
+- **2026-09-18** — Ninth run. Voodoo still the only live design req. No new ≥7 live ID posting. New speculative ≥7: OC Tenders (8), GY Boat Design (7), Southern Pacific Boats (7). Twenty-one drafts total, none sent. Aakron (Highfield dealer), ALM (now RV), Dolphin (repair), Hauraki (structural), Innovate Composites (shop), Gough (commercial CAD), Dart Ferries (404) — out or near-miss.
+- **2026-09-21** — Tenth run. Voodoo still the only live design req. No new ≥7 live ID posting. New speculative ≥7: Shaw Yacht Design / Shaw Tenders (8). Twenty-two drafts total, none sent. K2 Marine liquidated Nov 2025; Sportcraft liquidated Aug 2024. Kiwi Kraft filed (score 6). Lancer = Sealegs subsidiary. Elite Boat Builders Picton and Half Moon Bay are repair. Young Yacht Design stale (score 6).
+- **2026-09-22** — Eleventh run. Voodoo still the only live design req. No new ≥7 live ID posting. New speculative ≥7: **Kit Carlier Design (8)** — yacht interior/exterior studio that already employs an industrial designer; **Shift Yachts (8)** — Hakes carbon performance cats, Thai build. Twenty-four drafts total, none sent. Filed WEBBCo, Stimson, SSC, Dan Leech, Mariner Design, NZ Yachts brand, Jackson, Aimex, Stark Bros.
+- **2026-09-23** — Twelfth run. Voodoo still the only live design req. No new ≥7 live ID posting. New speculative ≥7: **EightySix Boats (8)** — Wanaka design-led alloy day boat (Isaac Burrough; Hull Two early 2026). Twenty-five drafts total, none sent. Filed Isaac Burrough Design (1-person studio), Dreadnort/Altech, Transformarine, Onfire (branding — stop), Booth Design, Takacat (distributor), Vaudrey Miller (liquidated), Boat Fix NZ (repair).
+- **2026-09-24** — Thirteenth run. Voodoo still the only live design req. No new ≥7 live ID posting. New speculative ≥7: **ONETenders (8)** — Marsden Cove autoclaved carbon M/C-Series tenders (Grant & Emma Nelson; dealer talks Sep 2026). Twenty-six drafts total, none sent. Closed remaining thin cluster: Tangaroa, Stanaway, Gilbert (dealer), Heron, Alan Wright, MYSC, Oceania, Orakei, Sounds, Yamato, Shipco, Quayside. MicroTender filed as score-6 near-miss. MC-ZERO = McConaghy factory, not NZ.
+- **2026-09-25** — Fourteenth run. Voodoo still the only live design req. No new ≥7 live or speculative ID. Map leftovers: **Offshore Boats NZ (6)** — Whangārei alloy plate + Dan Leech foil cats; **Pātea Boats (5)** — Dunedin, Hall hull. **Icon Azure** brokerage — stop. Twenty-six drafts still unsent.
+- **2026-09-28** — Fifteenth run. Voodoo still the only live design req. No new ≥7 live or speculative ID. Map: **Oceanpro (6)** — Pauanui alloy pontoons, Mike Bush ex-tender/military Head Designer; **Nick Peal (5)**; **Horizon Boats (4)**; **SYOS (5, skip ID)**; **IRON (Swedish import — stop)**. Twenty-six drafts still unsent. Invercargill Stabicraft Marketing closes **2 Oct**.
+- **2026-09-29** — Sixteenth run. Voodoo still the only live design req. No new ≥7 live or speculative ID. Map: **Wright Catamarans Australasia (6)** — K2 successor, Wright 52 at Robertson Warkworth; **TC Design / Elotri (6)**; **Tectrax (5, skip OEM)**; **Diverse Projects (owners’ rep — stop)**. Twenty-six drafts still unsent. Stabicraft Invercargill Marketing still closes **2 Oct**.
+
+## Companies researched (do not redo from scratch)
+
+**Re-check careers URLs only** unless the business changed (last full re-check of standing boards: 29 Sep 2026):
+
+Voodoo/Pachoud, Vessev, Yachting Developments, Dickey, Lloyd Stevenson, Rayglass (incl. Protector), Stabicraft, LOMOcean, Bakewell-White, Core Builders/SailGP, Circa, Q-West, Tristram, Haines Hunter, Smuggler, Extreme, Innovision, Salthouse Boatbuilders, Mackay, McMullen & Wing, White Pointer, Naiad/Whiskey Project, Cookson (closed), Roger Hill, Scott Robson, Image Boats, Dibley, Elite, Warwick, AMF, McLay, DEMEY/Nic de Mey, Formula Cruisers (closed 2013), Senator, Profile, Makaira, Fusion Marine (NZ), Southern Ocean Marine, Hall Marine Design, Purekraft, Admiral Boats NZ (Hamilton), Buccaneer, Fi-Glass, Marco, Kingfisher, Huntsman, Fat Cat / Lightning Marine, Southern Boats (Mosgiel), Coast Design, Brin Wilson, Salthouse Next Generation, Sealegs, Teknicraft, Stryda Marine, Surtees, Ramco, Barnett Offshore, Osprey, Challenger, Fyran (dormant), Herley, TysonD, Valder, Scott Lane, Solid Composites, Bladerunner, Marra, Allan Tongs, Fin Chaser, Machina, DNA/Ace, AMP Boats, Norsand, Lees, Seaforce, Galloway, Hutcheson, Radian Marine, Bluefix/NorthCape, Elliott Marine, Expression, Raeline, Walker/Arcryte, Robertson, Barclay, Superthriller, Pilot Bay, Careys Bay, StabiX, Built Boats, JP Crafts, Frews/Frewza, TCC, Superior, Explorer, MG Composites, Johnson Yachts NZ, Weber, Solur, PURE, OC Tenders, GY Boat Design, Southern Pacific, Matcraft/Saronic, Assault Boats, Gough Bros, Dart Ferries, Innovate Composites, Hauraki, Aakron, ALM, Dolphin, Shaw Yacht Design / Shaw Tenders, Kiwi Kraft, Lancer, Icon Marine, Young Yacht Design, K2 (liquidated; successor Wright Catamarans Australasia), Sportcraft (liquidated), Elite Boat Builders Picton, Half Moon Bay, Kit Carlier Design, Shift Yachts, WEBBCo, Stimson, SSC Marine, Dan Leech, Mariner Design, New Zealand Yachts brand, Jackson, Aimex, Stark Bros, **EightySix Boats, Isaac Burrough Design, Dreadnort/Altech, Transformarine, Onfire Design, Booth Design, Takacat, Vaudrey Miller, Boat Fix NZ**, **ONETenders, MicroTender, Tangaroa Marine, Stanaway, Alan Wright, MYSC, Oceania, Orakei, Shipco 360, Heron Ship Repair, Gilbert Marine, Sounds Marine, Quayside, Yamato Marine Worx, Offshore Boats NZ, Pātea Boats, Icon Azure, Oceanpro Boats, Nick Peal, Horizon Boats, SYOS Aerospace, IRON Boats, Wright Catamarans Australasia, TC Design / Elotri, Tectrax, Diverse Projects**.
+
+Thin / next: named NZ Marine builder list is largely closed. Next hunts are new 2026–27 brands (Boating NZ / boat shows) or a live ID vacancy, not the stop list. Watch Stabicraft after 2 Oct Marketing close.
+
+## Jobs already listed
+
+| Job | Status 2026-09-29 |
+|---|---|
+| Voodoo Naval Architect / Yacht Designer | **Still live** — emily@voodooyachts.com — draft outreach, **not sent**. Rohan Stent + Paris Halstead already in design; NA seat still open. Re-verified 29 Sep. |
+| Vessev senior ID | Speculative — draft, **not sent**. Careers page still culture/process; LinkedIn GNC + internships only. |
+| Yachting Developments designer | Speculative — draft, **not sent**. `/careers` 404. |
+| Dickey Marine Designer | Speculative standing — outreach drafted 8 Sep, **not sent**. Live card still Aluminium Boatbuilder. |
+| DEMEY Yachts designer | Speculative — outreach drafted 9 Sep, **not sent** |
+| Hall / Purekraft ID | Speculative — outreach drafted 10 Sep, **not sent** |
+| Admiral Boats NZ designer | Speculative — outreach drafted 10 Sep, **not sent** |
+| Sealegs senior ID | Speculative — outreach drafted 11 Sep, **not sent** |
+| Teknicraft designer | Speculative — outreach drafted 11 Sep, **not sent** |
+| Stryda Marine designer | Speculative — outreach drafted 11 Sep, **not sent** |
+| TysonD yacht ID | Speculative — outreach drafted 14 Sep, **not sent** |
+| Herley Design/Draftsman | Speculative standing — outreach drafted 14 Sep, **not sent**. Careers list **unchanged** 29 Sep. |
+| Radian Marine ID | Speculative — outreach drafted 15 Sep, **not sent** |
+| Bluefix / NorthCape designer | Speculative — outreach drafted 15 Sep, **not sent**. Do not apply to painter/builder ads. |
+| Elliott Marine yacht ID | Speculative — outreach drafted 15 Sep, **not sent** |
+| StabiX ID | Speculative — outreach drafted 16 Sep, **not sent**. Open careers page, no named designer seat. |
+| Built Boats stylist / ID | Speculative — outreach drafted 16 Sep, **not sent**. |
+| JP Crafts RIB/tender ID | Speculative — outreach drafted 16 Sep, **not sent**. |
+| OC Tenders composite tender ID | Speculative — outreach drafted 18 Sep, **not sent**. NZ Marine Jobs empty. |
+| GY Boat Design yacht/tender ID | Speculative — outreach drafted 18 Sep, **not sent**. |
+| Southern Pacific RIB/tender ID | Speculative — outreach drafted 18 Sep, **not sent**. |
+| Shaw Yacht Design / Shaw Tenders ID | Speculative — outreach drafted 21 Sep, **not sent**. Carbon S3 + performance yachts. |
+| Kit Carlier Design yacht ID | Speculative — **outreach drafted 22 Sep**, **not sent**. Interior/exterior studio; already employs an ID. |
+| Shift Yachts carbon-cat ID | Speculative — **outreach drafted 22 Sep**, **not sent**. Hakes / HH pedigree; Thai build. |
+| EightySix Boats day-boat ID | Speculative — outreach drafted 23 Sep, **not sent**. Design-led alloy day boat; no public email — LinkedIn Isaac Burrough only. |
+| ONETenders carbon-tender ID | Speculative — **outreach drafted 24 Sep**, **not sent**. Autoclaved prepreg M/C-Series; info@onetenders.com / hello@onedesigns.xyz / LinkedIn Grant Nelson. |
+
+## Dead / stale sources
+
+- Stabicraft Design Engineer — closed 19 Aug 2026 (BeBee / trabajo still show it). Official QJumpers 29 Sep: Marketing Specialist Auckland (**to 20 Oct 2026**) + Invercargill (**to 2 Oct 2026**) + Alloy Welder feelers. No design backfill.
+- Smuggler “We Are Hiring” — 24 Jun 2021
+- Innovision Marine Designer on Seek/trabajo — **not** on official careers (electrician only); aggregator URL **404** as of 18 Sep 2026
+- Joblum “Voodoo job expired” — **false**; official careers still lists it as of 29 Sep 2026
+- Vessev LinkedIn Naval Architect (4048453610) — stale (~7 months)
+- NZ Marine Jobs public board — empty / registration-only 7–23 Sep 2026
+- Dickey `/vacancies/marine-designers` — 404
+- Yachting Developments `/careers` — 404 (24 Sep 2026)
+- Sealegs `/pages/careers` — 404 (24 Sep 2026)
+- K2 Marine — voluntary liquidation ~Nov 2025; website 500
+- Sportcraft Marine / Sportcraft Boats — High Court liquidation 12 Aug 2024
+- Surtees `/careers` — 404 (11 Sep 2026) despite nav link
+- Cookson Boats — yard closed ~2014
+- Formula Cruisers — yard closed 2013 (ICON moulds now Salthouse Next Generation)
+- Fyran Boats — sold 2015; treat as dormant
+- Lees Boatbuilders — timber restoration; stop chasing
+- Norsand — trades EOI only; stop chasing as ID target
+- Robertson Boats — service/refit yard; stop as ID target
+- Barclay Yachts — Auckland refit; stop chasing
+- Superthriller — jetsprint venue; stop chasing
+- Pilot Bay / Careys Bay — repairs / slipway; stop chasing
+- SailGP Technologies 2026 composite jobs — Southampton, not NZ
+- Whiskey Project Naval Architect — Edenton NC, not NZ
+- Raeline.com — HTTP 500 on 15 Sep
+- Solur Design Engineer (Seek Invercargill) — CAD contractor, not a yard; do not shortlist
+- Weber Marine Boat Builder/Joiner (Trade Me) — trades/repair
+- Dart Ferries website (dartferries.com) — **404** on 18 Sep 2026
+
+## Apply status
+
+**None submitted.** Default remains draft-only for Laura/Igor. Twenty-six drafts: Vessev, Voodoo, Yachting Developments, Dickey, DEMEY, Hall/Purekraft, Admiral NZ, Sealegs, Teknicraft, Stryda, TysonD, Herley, Radian, Bluefix, Elliott, StabiX, Built Boats, JP Crafts, OC Tenders, GY Boat Design, Southern Pacific, Shaw Yacht Design / Shaw Tenders, Kit Carlier Design, Shift Yachts, EightySix Boats, **ONETenders**.
+
+## Candidate
+
+Brief lives at `candidate/igor-brief.md`. Not an NA. Strongest proof: Aeolos carbon boats 2021–2024; DEOND R&D ID.
+
+## Out of scope (keep skipping)
+
+Manson/Bowmaster equipment, MID/Babcock NA consultancy, Navico/Garmin electronics, marina ops, brokerage, Southern Spars, Gurit materials draughting, SailGP UK, TWPG US NA role, Procreate (generic ID consultancy), Fusion Power Boats South Africa, Dusky Marine Florida / PN one-off fit-out, Aquamagic (refit/owners’ rep), Italian Admiral / The Italian Sea Group (not Hamilton Admiral Boats NZ), Lighthouse NA, Manta Marine Design (1-person NA) unless they advertise styling ID, **Anura Ltd (amphibious tech OEM, not a boat brand)**, **Tectrax / Wave Propulsion (amphibious OEM, ZeroJet sister; marketing + procurement ads only)**, **Diverse Projects (owners’ rep / Ocean Independence — not a yard)**, **Bonze Lures (Hall+Makaira boat, not an employer)**, Pocketspace Marine (interior consultancy), Energy Vessels Offshore Whangārei (≠ Hutcheson Elliott EVO), **FORVIA HELLA Junior PM Marine (lighting OEM)**, **Vessev mechanical/propulsion/embedded seats**, **Solur Design (CAD contractor)**, **PURE Design & Engineering (FEA consultancy)**, **Weber Marine (repair/fit-out)**, **Johnson Yachts International (steel custom, external designers)**, **TCC / Explorer tubes (weak ID)**, **Aakron Xpress (Highfield dealer + trailers)**, **ALM / Andrew Fink (now RV)**, **Dolphin Inflatables (repair)**, **Hauraki Design (structural composites)**, **Innovate Composites (shop, not a brand)**, **Gough Bros (commercial CAD / Naiad licence)**, **Dart Ferries (404)**, **Kaynemaile Senior ID (mesh)**, **K2 Marine (liquidated; successor Wright Catamarans Australasia is score 6, not ID)**, **Sportcraft (liquidated)**, **Elite Boat Builders Picton (repair)**, **Half Moon Bay Boatbuilders (repair)**, **Lancer Industries (Sealegs tubes OEM)**, **Vessey Johannesburg ID (≠ Vessev NZ)**, **Southern Spars Senior Design Engineer (spars)**, **Jackson Industries (CNC shop)**, **Aimex (Nelson refit engineering)**, **Stark Bros (steel fishing)**, **New Zealand Yachts brand (external designers + YDL)**, **Adventure Yachts Thailand (Shift build partner, not an NZ employer)**, **Onfire Design (branding/advertising)**, **Takacat NZ (distributor)**, **Vaudrey Miller (liquidated)**, **Boat Fix NZ (repair)**, **Navico UX/UI Product Designer (electronics interfaces)**, **Isaac Burrough Design as a 1-person studio (use EightySix as the vehicle)**, **MC-ZERO Tenders (McConaghy factory, not NZ)**, **ZeroJet (propulsion OEM)**, **MicroTender (2 m dinghies, score 6)**, **Marsden Cove Marine Ltd (marina service)**, **Stanaway / MYSC / Oceania / Orakei / Heron / Gilbert / Sounds / Quayside / Yamato / Alan Wright (stop)**, **Icon Azure (brokerage)**, **Pātea Boats (Hall hull, not an ID employer)**, **Offshore Boats NZ (score 6 near-miss; Walker + Leech, not ID)**, **IRON Boats (Swedish import via Family Boats)**, **SYOS Aerospace (USV mechatronics/ME, not yacht ID)**, **GMTS (Starlink/connectivity)**, **Marine Installations & Developments (propulsion; ≠ Babcock MID)**, **Nick Peal / Horizon Boats (classic timber, not ID employers)**, **Bill Townson backyard launch**, **Makai / Gran Turismo Alpine / Windelo / Aquila (import brands, NZ dealers only)**, **Hybrid Electrical / Wave Electrical (electrical shops on NZ Marine designers list)**.
+
+## Name collisions
+
+- Southern Boats (Mosgiel alloy + Lazercraft) ≠ Southern Ocean Marine (Tauranga composites) ≠ **Southern Pacific Boats (Kumeu RIBs / Kiwi Yachting)**
+- Admiral Boats NZ (Hamilton GRP) ≠ Admiral Yachts Italy
+- Fusion Marine Silverdale ≠ Fusion Power Boats South Africa
+- Salthouse Boatbuilders ≠ Salthouse Next Generation (Dean / ICON)
+- Whitecloud (absorbed by Admiral) ≠ historic wooden launch “White Cloud”
+- Sealegs (Albany amphibious RIBs) ≠ Stryda (Wairau amphibious alloy) — two separate Auckland producers
+- AMP Boats (Invercargill pontoons) ≠ AMF Boat Co (Whanganui custom alloy)
+- Hutcheson Elliott **EVO** recreational ≠ Energy Vessels Offshore (Whangārei workboats)
+- Valder Yachts (brand) ≠ in-house design — NA is Roger Hill, build is Scott Lane
+- **Elliott Marine (Birkenhead design studio) ≠ Hutcheson (Tauranga builder of Elliott EVO)**
+- **Walker Boats = Arcryte (same Rotorua shed)**
+- Bluefix / NorthCape (Opua) ≠ US North Cape / Cape Horn brands
+- **StabiX (Invercargill amphibious, Paul Adams) ≠ Stabicraft production ≠ Sealegs ≠ Stryda ≠ Anura**
+- **JP Crafts (Wairau RIBs) ≠ Machina Peritia (Hawke’s Bay pontoons) ≠ OC Tenders (Haruru composite hard tenders)**. NZ Marine **JP PROJECTS** listing is the same company (`jpcrafts.co`).
+- **Built Boats Ltd (Matt Gibson, Remuera) ≠ Half Moon Bay Boatbuilders**
+- **Johnson Yachts International (Pine Harbour steel) ≠ Taiwanese Johnson Yachts**
+- Frewza / Frews Marine ≠ Stabicraft (same city)
+- **GY Boat Design (Georgi Yankov, Browns Bay) ≠ Marine Industrial Design Ltd / Babcock**
+- **Innovate Composites (2 Rothwell Ave) ≠ Innovision Boats (2B Rothwell)**
+- **Matcraft/Saronic (Hamilton wake/composites) ≠ Assault Boats (East Tamaki RIBs; Gemini hulls)**
+- **Shaw Tenders / Shaw Yacht Design ≠ OC Tenders ≠ JP Crafts ≠ Explorer tubes**
+- **Kiwi Kraft (Invercargill pontoons, Rodney Harris) ≠ Kwikkraft (Icon/Ramco, Rangiora)**
+- **Elite Boat Builders Picton (repair) ≠ Elite Marine Design (Howick)**
+- **K2 Marine (Glendene, liquidated) ≠ Kingfisher / Alloy Cats ≠ Wright Catamarans Australasia (Kays + Robertson Warkworth) ≠ US K2 Marine / Frontier (Arkansas)**
+- **Lancer Industries = Sealegs subsidiary** — inflatable tubes, not a second amphibious brand
+- **Vessey Design Johannesburg ≠ Vessev NZ**
+- **Young Yacht Design (Greg, Takapuna) ≠ Jim Young legacy ≠ Hutcheson Elliott EVO**
+- **Shift Yachts (Hakes performance cats, Thai build) ≠ New Zealand Yachts (Jones wavepiercer brand at YDL)**
+- **Kit Carlier Design ≠ Pocketspace Marine ≠ Elliott Marine ≠ SSC Marine (JV)**
+- **Mariner Design (John Cable, Dairy Flat) ≠ Marine Industrial Design / Babcock**
+- **WEBBCo (Wellington ferry builder) ≠ Stimson (NA) ≠ Kit Carlier (styling) ≠ SSC (JV brand)**
+- **EightySix Boats (Wanaka alloy day boat) ≠ Isaac Burrough Design (1-person superyacht studio) ≠ Dreadnort (Auckland inverted-bow alloy)**
+- **Onfire Design = branding agency**, not a yacht studio
+- **Takacat NZ = distributor** ≠ JP Crafts / OC Tenders / Southern Pacific
+- **Booth Design ≠ Bakewell-White**; Booth+Johnson steel stays out
+- **Vaudrey Miller liquidated 2009/2016**
+- **Master Marine Projects = Fat Cat / Lightning Marine**
+- **ONETenders (Marsden Cove carbon) ≠ OC Tenders ≠ Shaw Tenders ≠ JP Crafts ≠ MicroTender ≠ MC-ZERO**
+- **MC-ZERO = McConaghy factory + ZeroJet propulsion**, not an NZ ID employer
+- **Marsden Cove Marine Ltd ≠ ONETenders**
+- **Tangaroa ≠ Heron ≠ Shipco ≠ Oceania** (same Whangārei harbour)
+- **Gilbert Marine = boat dealer**
+- **Offshore Boats NZ ≠ Circa Marine** (same harbour; Offshore’s Circa-named trailer models are this brand)
+- **Pātea Boats ≠ Southern Boats Mosgiel ≠ Southern Ocean Marine**
+- **Icon Azure = brokerage** ≠ Icon Marine / Icon Custom ≠ Salthouse NG ICON
+- **Oceanpro (Pauanui, Mike Bush) ≠ Osprey ≠ AMP/AMF ≠ Stabicraft**
+- **Nick Peal ≠ Salthouse Boatbuilders ≠ Salthouse NG**; Malolō build is Horizon Boats
+- **Horizon Boats (Wayne Olsen, Stillwater) ≠ Horizon Yachts Taiwan ≠ Half Moon Bay**
+- **IRON Boats = Swedish/Polish brand, NZ dealer Family Boats** — Family Boats also dealers Oceanpro
+- **SYOS Aerospace ≠ Vessev ≠ Pachoud**
+- **Marine Installations & Developments (`marineengineers.co.nz`) ≠ Marine Industrial Design / Babcock (`marinedesign.co.nz`)**
+- **GMTS = connectivity**, not vessel design
+- **Wright Catamarans Australasia ≠ Alan Wright Design as an employer** (Wright is hull author; Kays sell; Robertson builds)
+- **TC Design / Elotri (Tim Clissold) ≠ Teknicraft ≠ TysonD**
+- **Tectrax / Wave Propulsion ≠ Sealegs ≠ Stryda ≠ StabiX ≠ Anura** (Tectrax is amphibious OEM + ZeroJet sister)
+- **Diverse Projects ≠ a yard** (owners’ rep; Ocean Independence Australasia)
+
